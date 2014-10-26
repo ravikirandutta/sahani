@@ -1,0 +1,562 @@
+/*-----------Base styles --------------------------------------------------- */
+
+body {
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777;
+  padding-top: 50px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+hr {
+  display: block;
+  width: 75%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+
+
+/* Titles */
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #777;
+}
+
+
+
+/* Paragraph & Typographic */
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-weight:400;
+}
+
+
+/* Links */
+
+a {
+  color: #e88801;
+  word-wrap: break-word;
+
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+  color: #730046;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before,
+a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+
+/* UI Elements */
+
+.pad-top {
+  padding-top: 80px;
+}
+
+
+/* Button Modifications */
+
+.btn-theme {
+  background-color: #e88801;
+  color: #fff;
+  border-color: #e88801;
+}
+
+.btn-theme:hover,
+.btn-theme:focus {
+  border-color: #e88801; /* change to darker hue than bg hover color */
+  background-color: transparent;
+  color: #e88801;
+  box-shadow: none;
+}
+
+.btn-theme2 {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn-circle {
+  border-radius:20px;
+}
+
+.btn-theme2:hover,
+.btn-theme2:active {
+  border-color: #fff;
+  background-color: #fff;
+  color: #730046;
+  box-shadow: none;
+}
+
+/* Home page buttons */
+.btn-home-signup {
+  font-weight:300;
+  background-color:#e88801;
+}
+
+.btn-home-learn-more{
+  background-color: transparent;
+  color: #fff;
+  font-weight:300;
+  border : 1px solid #fff;
+}
+.btn-home-learn-more:hover{
+  color: #730046;
+  font-weight:300;
+  border : 1px solid #fff;
+}
+
+
+
+/* ---------------------------------------------------------------------
+Navigation
+--------------------------------------------------------------------- */
+
+.navbar-default {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-default .navbar-toggle {
+  border: 0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle > .icon-bar {
+  background-color: #730046;
+}
+
+.navbar-default .navbar-brand {
+  color: #730046;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #bdc3c7;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #730046;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #bdc3c7;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #bdc3c7;
+}
+
+.navbar-default .navbar-right a[type="button"] {
+  padding: 6px 20px 6px 20px;
+  color: #fff;
+}
+
+.navbar-default .navbar-right a[type="button"]:hover,
+.navbar-default .navbar-right a[type="button"]:focus {
+  background-color: transparent;
+  color: #730046;
+}
+
+
+/* ---------------------------------------------------------------------
+Wrap Sections
+--------------------------------------------------------------------- */
+
+/* Header Wrap */
+
+.headerwrap {
+  background-color: #730046;
+  background : radial-gradient(at 50% bottom,#db539f 5%, #730046 90%);
+  /* background: url("../img/5.jpg") no-repeat center top; */
+  background-size: cover;
+  padding-top: 200px;
+}
+
+.serverDown{
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+
+.customersFurious{
+  /* -webkit-animation-delay: 3.5s; */
+  /* -moz-animation-delay: 3.5s; */
+  /* animation-delay: 3.5s; */
+}
+
+.nowWhat{
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.scrollDown{
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.meetNeptune{
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.accordion .fa {
+  vertical-align:middle;
+  color:#e88801;
+}
+
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+
+.neptuneRuns{
+  /* -webkit-animation:spin 1s linear ; */
+  /* -webkit-animation-delay: 0s; */
+  /* -webkit-animation-duration: 5.0s; */
+  /* -moz-animation-delay: 0s; */
+  /* -moz-animation-duration: 5.0s; */
+  /* -webkit-animation-iteration-count: infinite; */
+  /* -moz-animation-iteration-count: infinite; */
+}
+
+.iconmelon{
+  position:relative;
+  width:60px;
+  height:60px;
+  margin:auto;
+  fill:#e88801;
+}
+
+
+.headerwrap .col-lg-2 {
+  padding-top: 40px;
+}
+
+.headerwrap h1 {
+  margin-top: 30px;
+  color: white;
+  font-size: 45px;
+  font-weight:400;
+}
+
+.headerwrap h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.headerwrap h4 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.headerwrap h5 {
+  color: white;
+  font-weight: 400;
+  text-align: left;
+}
+
+.headerwrap p {
+  text-align: left;
+  color: #fff;
+}
+
+
+/* Intro Wrap */
+
+.intro {
+  /* background-color:#f0f0f0; */
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+.withNeptuneio{
+  /* background-color:#f0f0f0; */
+  padding-bottom: 50px;
+}
+
+.intro licon {
+  font-size: 60px;
+  color: #730046;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+/* howitworkswrap */
+
+.howitworkswrap {
+  background-color:#f0f0f0;
+  padding-bottom: 50px;
+}
+
+/* testimonialswrap */
+
+.testimonialswrap {
+  background-color:#f0f0f0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* Features Wrap */
+
+.featureswrap {
+  /* background-color:#f0f0f0; */
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.featureswrap .col-lg-6 img {
+  display: table;
+  margin: 0 auto;
+}
+
+.featureswrap .ac a {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  color:#333;
+  font-weight:400;
+}
+
+.featureswrap .col-lg-6 h4,
+.featureswrap .col-lg-6 licon {
+  font-size: 18px;
+  color: #777777;
+}
+
+/* Divider 1 & 2 Wrap */
+
+.divider01 {
+  background: url("../img/divider/divider-1.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 300px;
+  padding-top: 120px;
+}
+
+.divider01 h3 {
+  font-size: 34px;
+  color: #fff;
+}
+
+.divider01 h4 {
+  padding-top: 15px;
+  color: #fff;
+}
+
+.finalMessage {
+  background-color: #730046;
+  background : radial-gradient(at 50% top,#bb436f 1%, #730046 80%);
+  padding: 20px;
+}
+
+.finalMessage h3 {
+  color: #fff;
+  /* padding-right: 40px; */
+  font-size:18px;
+}
+
+.finalMessage h3,
+.finalMessage button {
+  display: inline;
+  vertical-align: middle;
+}
+
+
+/* Pricing Wrap */
+
+.pricingwrap {
+  /* background-color: #f0f0f0; */
+  padding-bottom: 120px;
+}
+
+.pricingwrap small {
+  padding-left: 10px;
+}
+
+/* Pricing Tables */
+
+.panel {
+  text-align: center;
+}
+
+.panel-custom {
+  border-color: #730046;
+}
+
+.panel-custom > .panel-heading {
+  background-color: #730046;
+  color: #fff;
+}
+
+.panel-heading > .panel-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.panel-body {
+  padding: 0px;
+  text-align: center;
+}
+
+.the-price {
+  background-color: rgba(220,220,220,0.17);
+  box-shadow: 0 1px 0 #dcdcdc, inset 0 1px 0 #dcdcdc;
+  padding: 20px;
+  margin: 0;
+}
+
+.the-price h2 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+.subscript {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+/* Footer Wrap */
+
+.footerwrap {
+  background-color: #333;
+  color: #777;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footerwrap h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.footerwrap a {
+  font-size: 14px;
+  font-weight: 400;
+  color:#777;
+}
+
+.footerwrap a:hover {
+  font-size: 14px;
+  font-weight: 300;
+  color: #e88801;
+}
+
+
+.footerwrap p {
+  color: #777;
+  font-size: 14px;
+}
+
+.footerwrap #social {
+  margin: 20px auto 0px auto;
+  display: inline-block;
+}
+
+.footerwrap input:focus {
+  outline: 0;
+}
+
+
+/* Copyright Wrap */
+
+.copywrap {
+  background: #222;
+  padding-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
+
+
+/* Sign In & Sign Up Modal */
+
+.modal .nav-tabs {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* cleaner divs */
+.vspace-10 {
+  margin-top:10px;
+}
+
+.vspace-20 {
+  margin-top:20px;
+}
+
+.vspace-30 {
+  margin-top:30px;
+}
+
+.vspace-40 {
+  margin-top:40px;
+}
+
+.vspace-50 {
+  margin-top:50px;
+}
+
+.vspace-100 {
+  margin-top:100px;
+}
+
+.vspace-200 {
+  margin-top:200px;
+}
+
+.vspace-300 {
+  margin-top:300px;
+}
+.vspace-400 {
+  margin-top:400px;
+}
