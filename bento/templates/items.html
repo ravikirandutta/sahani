@@ -6,26 +6,26 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/header/design.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/header/modo.css">
-        <link rel="stylesheet" href="/home/keerthi/homefood/design/css/grocery/thali.css">
+    <link rel="stylesheet" href="/static/design/css/header/design.css">
+    <link rel="stylesheet" href="/static/design/css/header/modo.css">
+        <link rel="stylesheet" href="/static/design/css/grocery/thali.css">
 
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/flat-ui/css/demo.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/flat-ui/css/flat-ui.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/index.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/flat-ui/css/docs.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/common-files/animations.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/common-files/icon-font.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/flat-ui/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/flat-ui/bootstrap/css/jquery.bxslider.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/flat-ui/bootstrap/css/bootstrap-docs.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/project/ui-kit-styles.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/contacts/ui-kit-styles.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/price/ui-kit-styles.css">
+    <link rel="stylesheet" href="/static/design/css/flat-ui/css/demo.css">
+    <link rel="stylesheet" href="/static/design/css/flat-ui/css/flat-ui.css">
+    <link rel="stylesheet" href="/static/design/css/index.css">
+    <link rel="stylesheet" href="/static/design/css/flat-ui/css/docs.css">
+    <link rel="stylesheet" href="/static/design/css/common-files/animations.css">
+    <link rel="stylesheet" href="/static/design/css/common-files/icon-font.css">
+    <link rel="stylesheet" href="/static/design/css/flat-ui/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/design/css/flat-ui/bootstrap/css/jquery.bxslider.css">
+    <link rel="stylesheet" href="/static/design/css/flat-ui/bootstrap/css/bootstrap-docs.css">
+    <link rel="stylesheet" href="/static/design/css/project/ui-kit-styles.css">
+    <link rel="stylesheet" href="/static/design/css/contacts/ui-kit-styles.css">
+    <link rel="stylesheet" href="/static/design/css/price/ui-kit-styles.css">
     <link rel="stylesheet" href="
-    /home/keerthi/homefood/design/css/crew/ui-kit-styles.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/footer/ui-kit-styles.css">
-    <link rel="stylesheet" href="/home/keerthi/homefood/design/css/content/ui-kit-styles.css">
+    /static/design/css/crew/ui-kit-styles.css">
+    <link rel="stylesheet" href="/static/design/css/footer/ui-kit-styles.css">
+    <link rel="stylesheet" href="/static/design/css/content/ui-kit-styles.css">
 
 
     <link rel="shortcut icon" href="../../flat-ui/images/favicon.ico">
@@ -34,8 +34,35 @@
     <!-- Using only with Flat-UI (free)-->
   </head>
   <body style="padding-top:0px">
-        <div class="page-wrapper" style="background:#f9f7eb">
-            <!-- header-11 -->
+    <div id="bugModal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="margin-top:200px">
+         <div class="modal-content" style="background:rgb(100, 4, 4)">
+            <div class="modal-header">
+            <button id="modalCloseButton" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Write a review</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                        <p><label class="control-label col-lg-3" for="id_email">E-mail:</label><input id="id_sender" name="sender" type="email"></p>
+                </div>
+                <div class="form-group">
+                    <p><label class="control-label col-lg-3" for="id_message">Bug:</label>
+                        <textarea name="message" id="bug" rows="8" cols="40"></textarea></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="reportBug" data-dismiss="modal" class="btn btn-primary">Report</button>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="contact">
+      <div id="cheetahWidget2012_contactable_inner" style="top: 171.52px; width: 35px; overflow: hidden; position: fixed; z-index: 999999999; box-sizing: content-box; color: rgb(255, 255, 255); cursor: pointer; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 3px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 3px; box-shadow: rgba(0, 0, 0, 0.85098) 0px 0px 4px; right: 0px; margin-right: -5px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(0, 0, 0); background: none 0px 0px repeat scroll rgb(255, 170, 0);"><div id="dropifi2012_version_inner_label" style="width:23px;margin-right:auto;margin-left:auto;padding-right:0px"><img id="dropifi_widget_v1_imageText" style="padding:0px;max-width:25px;min-width:25px;width:25px;display:inherit !important;border:0px;margin-top:5px;margin-bottom:8px;box-shadow: 0 0 0 transparent;" src="https://s3.amazonaws.com/dropifi_widget_tab/mealster_myshopify_com/tab_text.png?v=1405713931368"></div></div>
+    </div>
+     
+        <div class="page-wrapper" style="background:#f9f7eb;">
+                <!-- header-11 -->
             <header class="header-11" id="thaliheader">
                 <div class="container">
                     <div class="row">
@@ -44,17 +71,19 @@
                                 <button type="button" class="navbar-toggle">
                                   <span class="glyphicon glyphicon-circle-arrow-left" style="color:#fff"></span>
                                 </button>
-                                <div class="brand" href="homefood.html">
-                                <b><span style="color:rgb(170, 35, 57);font-size:35px;font-family:serif">Home<span style="color:rgb(13, 83, 3)">Thali</span></span></b></div>
+                                <div class="brand" href="#">
+                                <a href="/home/"><b><span style="color:rgb(170, 35, 57);font-size:35px;font-family:serif">Home<span style="color:rgb(13, 83, 3)">Thali</span></span></b></a></div>
                             </div>
                             <div class="collapse navbar-collapse pull-right">
                 <ul id="nav-menu" class="nav pull-left">
-                  <li><a href="#what">WHAT ARE WE</a>
+                  <li><a href="#what">Who are we</a>
                   </li>
-                  <li><a href="#ingredients">INGREDIENTS</a>
+                  <li><a href="#ingredients">Ingredients</a>
                   </li>
-                  <li><a href="#">WANNA ORDER</a>
+                  <li><a href="/items/">Wanna Order</a>
                   </li>
+                  <li><b><a href="#" data-toggle="modal" data-target="#bugModal" style="color:darkgreen;margin-top:40px"> Like our food?</a></b>
+                            </li>
 
                 </ul>
               </div>
@@ -335,17 +364,18 @@
       </footer>
 
       
-    <script src="/home/keerthi/homefood/design/js/common-files/jquery-1.10.2.min.js">
+    <script src="/static/design/js/common-files/jquery-1.10.2.min.js">
     </script>
-    <script src="/home/keerthi/homefood/design/js/flat-ui/bootstrap.min.js"></script>
-    <script src="/home/keerthi/homefood/design/js/common-files/modernizr.custom.js"></script>
-    <script src="/home/keerthi/homefood/design/js/common-files/page-transitions.js"></script>
-    <script src="/home/keerthi/homefood/design/js/common-files/jquery.scrollTo-1.4.3.1-min.js"></script>
-    <script src="/home/keerthi/homefood/design/js/common-files/jquery.parallax.min.js"></script>
-    <script src="/home/keerthi/homefood/design/js/common-files/easing.min.js"></script>
-    <script src="/home/keerthi/homefood/design/js/common-files/jquery.svg.js"></script>
-    <script src="/home/keerthi/homefood/design/js/common-files/jquery.svganim.js"></script>
-    <script src="/home/keerthi/homefood/design/js/common-files/startup-kit.js"></script>
-     <script src="/home/keerthi/homefood/design/css/sample/4/js/script.js"></script>
+    <script src="/static/design/js/flat-ui/bootstrap.min.js"></script>
+    <script src="/static/design/js/common-files/modernizr.custom.js"></script>
+    <script src="/static/design/js/common-files/page-transitions.js"></script>
+    <script src="/static/design/js/common-files/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script src="/static/design/js/common-files/jquery.parallax.min.js"></script>
+    <script src="/static/design/js/common-files/easing.min.js"></script>
+    <script src="/static/design/js/common-files/jquery.svg.js"></script>
+    <script src="/static/design/js/common-files/jquery.svganim.js"></script>
+    <script src="/static/design/js/common-files/startup-kit.js"></script>
+     <script src="/static/design/css/sample/4/js/script.js"></script>
+
   </body>
   </html>

@@ -52,7 +52,7 @@ color: rgb(170, 35, 57);
   position: absolute;
 left: 25px;
 top: -57px;
-background: url('/home/keerthi/homefood/design/images/biryani.gif') no-repeat;
+background: url('/static/design/images/biryani.gif') no-repeat;
 width: 79px;
 height: 182px;
 text-indent: -9000px;
