@@ -14,7 +14,6 @@ urlpatterns = patterns('',
     url(r'^$',TemplateView.as_view(template_name="homefood.html")),
     url(r'^items/',TemplateView.as_view(template_name="items.html")),
     url(r'^dallas/',TemplateView.as_view(template_name="dallas.html")),
-    
-    #url(r'^home/',TemplateView.as_view(template_name="homefood.html")),
+    url(r'^home/',TemplateView.as_view(template_name="homefood.html")),
    
 )
