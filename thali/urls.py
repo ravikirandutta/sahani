@@ -11,7 +11,10 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^home/',TemplateView.as_view(template_name="homefood.html")),
+    url(r'^$',TemplateView.as_view(template_name="homefood.html")),
     url(r'^items/',TemplateView.as_view(template_name="items.html")),
     url(r'^dallas/',TemplateView.as_view(template_name="dallas.html")),
+    
+    #url(r'^home/',TemplateView.as_view(template_name="homefood.html")),
+   
 )
