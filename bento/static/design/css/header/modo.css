@@ -681,7 +681,7 @@ body .navbar-collapse#header-16 {
 body > .navbar-collapse {
   padding: 25px 0;
   overflow: auto;
-  background: #222527;
+  background: bisque;
   min-height: 100%;
 }
 body > .navbar-collapse::-webkit-scrollbar {
@@ -1278,7 +1278,7 @@ section * {
 }
 #nav-menu li a{
     color:#3C0350;
-    font-size: 20px;
+    font-size: 15px;
     display: block;
     font-weight: 400;
     font-family: "serif";
@@ -3524,7 +3524,7 @@ section * {
   color: #16a085;
 }
 .header-11 .navbar .navbar-toggle {
-  background:red;
+  background:transparent;
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
