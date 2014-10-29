@@ -16,7 +16,7 @@ font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 margin-top: 80px;
 }
 #thalibackground{
-  opacity:initial;
+  opacity:0.5;
   height:900px;
   background: url('http://offthegridsf.com/wp-content/uploads/2011/08/curries.jpg')no-repeat;
 background-size: cover;
@@ -197,7 +197,7 @@ width:30%;
 }
 
 #thalibackground{
-  opacity:initial;
+  opacity:0.4;
   height:900px;
   background: url('http://offthegridsf.com/wp-content/uploads/2011/08/curries.jpg');
   background-repeat: no-repeat;

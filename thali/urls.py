@@ -14,6 +14,7 @@ urlpatterns = patterns('',
     url(r'^$',TemplateView.as_view(template_name="homefood.html")),
     url(r'^items/',TemplateView.as_view(template_name="items.html")),
     url(r'^dallas/',TemplateView.as_view(template_name="dallas.html")),
+    url(r'^biryani/',TemplateView.as_view(template_name="biryani.html")),
     url(r'^home/',TemplateView.as_view(template_name="homefood.html")),
 
     url(r'^email_thali/','bento.views.send_email_thali',),   # to send emails from specific chef pages.
