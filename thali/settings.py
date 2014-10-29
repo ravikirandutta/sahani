@@ -36,7 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bento',
+    'bento',     
+    'rest_framework',
 )
 
 MIDDLEWARE_CLASSES = (
