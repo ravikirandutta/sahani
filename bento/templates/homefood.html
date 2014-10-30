@@ -12,6 +12,9 @@
 
     <link rel="stylesheet" href="/static/design/css/flat-ui/css/demo.css">
     <link rel="stylesheet" href="/static/design/css/flat-ui/css/flat-ui.css">
+    <link rel="stylesheet" href="/static/design/css/xeon/main.css">
+    <link rel="stylesheet" href="/static/design/css/xeon/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/design/css/xeon/prettyPhoto.css">
     <link rel="stylesheet" href="/static/design/css/index.css">
     <link rel="stylesheet" href="/static/design/css/flat-ui/css/docs.css">
     <link rel="stylesheet" href="/static/design/css/common-files/animations.css">
@@ -91,24 +94,29 @@
                 </div>
                 <div class="header-background" style="background:#F8A310"></div>
             </header>
-            <section class="header-2-sub bg-midnight-blue" style="background:#fff">
-
-        <div class="background" id="thalibackground">&nbsp;</div>
-        <div class="container">
-          <div id="first-step">
-<div class="the-eye-catcher">
-<h1 style="font-size:3.5em;color:#490707">The best home food ever.</h1>
-</div>
-<div style="margin-top: 10px; margin-bottom: 10px">
-<form action="/check_zip_availability" class="zip-check-form" id="step1" method="post">
-<p class="message"></p>
-<input autocomplete="off" class="check-zip-code" id="zip-code" maxlength="5" name="zip_code" pattern="[0-9]*" placeholder="Your zip code" style="width: 190px; margin: 0 0 5px 0;padding:13px" type="text">
-<button class="btn btn-danger btn-large" id="zip-code-button" style="margin-bottom: 5px;">
-Get Started
-</button>
-</form>
-</div>
-</div>
+        
+<section id="main-slider" class="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h1>Eat healthy, eat tasty - like your mom's food</h1>
+                        <p class="lead">Choose your chef, know their cooking philosophy and have your fill.</p>
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h1>Pre-order so you don't miss</h1>
+                        <p class="lead">Our chefs prepare their best dishes in limited quantity, so go right ahead and start ordering, your dish will be waiting for you.</p>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+        <a class="prev" href="#main-slider" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="next" href="#main-slider" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </section>
           <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
               <div class="hero-unit">
@@ -118,7 +126,7 @@ Get Started
         </div>
       </section>
      
-      <section class="howitworks pageNav" id="pageNav">
+      <section class="howitworks pageNav">
 <section class="container">
 <div class="row clearfix">
   <div class="col-xs-7 col-md-12">
