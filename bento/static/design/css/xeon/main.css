@@ -48,7 +48,7 @@ a:focus {
   z-index: 99999;
 }
 #main-slider {
-  background-image: url('http://www.picresize.com/images/rsz_food.jpg');
+  background-image: url('/static/design/images/background.jpg');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
