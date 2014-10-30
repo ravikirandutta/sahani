@@ -8,13 +8,15 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <link rel="stylesheet" href="/static/design/css/header/design.css">
     <link rel="stylesheet" href="/static/design/css/header/modo.css">
-        <link rel="stylesheet" href="/static/design/css/grocery/thali.css">
-
+    <link rel="stylesheet" href="/static/design/css/grocery/thali.css">
     <link rel="stylesheet" href="/static/design/css/flat-ui/css/demo.css">
     <link rel="stylesheet" href="/static/design/css/flat-ui/css/flat-ui.css">
+    <link rel="stylesheet" href="/static/design/css/grocery/style.css">
     <link rel="stylesheet" href="/static/xeon/css/main.css">
     <link rel="stylesheet" href="/static/xeon/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/xeon/css/prettyPhoto.css">
+    <link rel="stylesheet" href="/static/xeon/css/chef-profile.css">
+
     <link rel="stylesheet" href="/static/design/css/index.css">
     <link rel="stylesheet" href="/static/design/css/flat-ui/css/docs.css">
     <link rel="stylesheet" href="/static/design/css/common-files/animations.css">
@@ -85,8 +87,8 @@
                   </li>
                   <li><b><a href="#" data-toggle="modal" data-target="#bugModal" style="color:darkgreen;margin-top:40px"> Like our food?</a></b>
                             </li>
-                  <li><a href="/dallas/">Dallas</a>
-                  </li>
+                  <!--<a class="btn btn-inverse" style="margin:20px;padding:10px 10px">LOGIN</a>
+                  <a class="btn btn-danger" style="padding:10px 10px">SIGN UP</a>-->
                 </ul>
               </div>
                         </div>
@@ -117,62 +119,7 @@
         <a class="prev" href="#main-slider" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
         <a class="next" href="#main-slider" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </section>
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              <div class="hero-unit">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-     
-      <section class="howitworks pageNav">
-<section class="container">
-<div class="row clearfix">
-  <div class="col-xs-7 col-md-12">
-
-    <p class="block-title">WE COOK WITH PASSION</p>
-<div class="clearfix works-list">
-  <p>At HomeThali we emphasize on <b>ORGANIC</b> ingredients and healthy cooking.At this point we are offering organic chicken biryani to begin our campaign.We will make the whole cooking process as transparent as possible.We believe that one should know what exactly goes onto his/her plate</p>
-</div>
-
-  </div>
-
-</div>
-</section>
-</section>
-<div>
-          <div class="container" style="margin-top:100px">
-            <div class="row">
-          </div>
-          <div class="delimiter">&nbsp;</div>
-          <div class="container">
-            <div class="row features">
-              <div class="col-sm-3 col-xs-3 ">
-                <a href="/dallas/"><img src="http://whateverblog.dallasnews.com/files/2012/11/TRAVEL_UST-DALLAS_1_AU_25272835.jpg" ></a>
-                <div class="info">
-                            <div class="name">Dallas</div>
-                            <span>Olive bread made with italian ciabatta bread dough and  aleppo olives.</span>
-                        </div>
-              </div>
-              <div class="col-sm-3 col-xs-3 col-sm-offset-1">
-                <a href="/sfo/"><img src="http://s3-us-west-2.amazonaws.com/assets-moishehouse-com/assets/programs/164881/original/San-Francisco.jpg?1410790996" ></a>
-                <div class="info">
-                            <div class="name">California</div>
-                            <span>Olive bread made with italian ciabatta bread dough and  aleppo olives.</span>
-                        </div>
-              </div>
-              <div class="col-sm-3 col-xs-3  col-sm-offset-1">
-                <a href="hyd.html"><img src="http://economictimes.indiatimes.com/thumb/msid-21933690,width-640,resizemode-4/gardens-in-agras-taj-mahal-still-feel-british-in-nature.jpg" ></a>
-                <div class="info">
-                            <div class="name">India</div>
-                            <span>Our branch in India.</span>
-                        </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <section class="howitworks pageNav" style="margin-top:50px">
+    <section class="howitworks pageNav" id="box">
 <section class="container">
 <div class="row clearfix">
 <p class="block-title col-xs-8 col-sm-4 col-md-12">AS PER YOUR TASTE</p>
@@ -201,15 +148,277 @@ pre-order items
 </div>
 </section>
 </section>
-      <div class="text-block col-sm-10 col-sm-offset-1" id="what">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <div class="hero-unit">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <div class="content-section-headings">
+        <h2 class="content-section-header">
+          Serving Areas
+        </h2>
+        <ul id="cities-served-list">
+          <li><a href="/dallas">Dallas</a></li>
+          <li><a href="/menlo_park">Atlanta</a></li>
+          <li><a href="/mountain_view">California</a></li>
+          <li><a href="/atherton">Frisco</a></li>
+        </ul>
+      </div>
+<section id="portfolio">
+            <!-- Button trigger modal -->
+            <div class="container">
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h4 class="modal-title" id="myModalLabel">More About Keerthi</h4>
+                                </div>
+                            <div class="modal-body">
+
+                                <center>
+                                <img src="images/portfolio/thumb/item1.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle">
+                                <h3 class="media-heading">Keerthi <small>USA</small></h3>
+                                <br><br>
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                                        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                                    </ol>   
+                                    <!-- Carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <h2>Slide 1</h2>
+                                            <div class="carousel-caption">
+                                              <h3>First slide label</h3>
+                                              <p>Lorem ipsum dolor sit amet consectetur?~@?</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <h2>Slide 2</h2>
+                                            <div class="carousel-caption">
+                                              <h3>Second slide label</h3>
+                                              <p>Aliquam sit amet gravida nibh, facilisis gravida?~@?</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <h2>Slide 3</h2>
+                                            <div class="carousel-caption">
+                                              <h3>Third slide label</h3>
+                                              <p>Praesent commodo cursus magna vel?~@?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Carousel nav -->
+                                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                                <br><br>
+                                <span><strong>Featured Dishes: </strong></span>
+                                    <span class="label label-warning">Dum Biriyani</span>
+                                    <span class="label label-info">Something</span>
+                                    <span class="label label-info">Something</span>
+                                    <span class="label label-success">Something</span>
+                                </center>
+                                <hr>
+                                <center>
+                                <p class="text-left"><br>
+                                    Choose the dishes to pre-order! I live at 1345, xyx, Dallas - zip. You can reach me at xxx-xxx-xxxx. 
+                                <br>
+                                </p></center>
+                            </div>
+                            <div class="modal-footer">
+                                <center>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="container">
+            <div class="box">
+                <div class="center gap">
+                    <h2>Our Chefs</h2>
+                    <p class="lead">We would love to hear from you!</p>
+                </div><!--/.center-->
+                <!--<ul class="portfolio-filter">
+                    <li><a class="btn btn-primary active" href="#" data-filter="*">All</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".bootstrap">Bootstrap</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".html">HTML</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".wordpress">Wordpress</a></li>
+                </ul>--><!--/#portfolio-filter-->
+                <ul class="portfolio-items col-4 isotope" style="position: relative; overflow: hidden; height: 712px;">
+                    <li class="portfolio-item apps isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
+                        <div class="item-inner">
+                            <div class="[ info-card ]">
+                                <img style="width: 100%" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfa1/t1.0-9/417157_4897339837183_626079670_n.jpg">
+                                <div class="[ info-card-details ] animate">
+                                    <div class="[ info-card-header ]">
+                                        <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
+                                        <h1> Robert McIntosh </h1>
+                                        <h3> aka Mouse0270 </h3>
+                                        </a>
+                                    </div>
+                                    <div class="[ info-card-detail ]">
+                                        <!-- Description -->
+                                        <p>The idea of creating something out of nothing has always generated a passion in my heart.</p>
+                                        <div class="social">
+                                            <a href="https://www.facebook.com/rem.mcintosh" class="[ social-icon facebook ] animate"><span class="fa fa-facebook"></span></a>
+
+                                            <a href="https://twitter.com/Mouse0270" class="[ social-icon twitter ] animate"><span class="fa fa-twitter"></span></a>
+
+                                            <a href="https://github.com/mouse0270" class="[ social-icon github ] animate"><span class="fa fa-github-alt"></span></a>
+
+                                            <a href="https://plus.google.com/u/0/115077481218689845626/posts" class="[ social-icon google-plus ] animate"><span class="fa fa-google-plus"></span></a>
+
+                                            <a href="www.linkedin.com/in/remcintosh/" class="[ social-icon linkedin ] animate"><span class="fa fa-linkedin"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item apps isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(275px, 0px, 0px);">
+                        <div class="item-inner">
+                            <div class="[ info-card ]">
+                                <img style="width: 100%" src="images/portfolio/thumb/item1.jpg">
+                                <div class="[ info-card-details ] animate">
+                                    <div class="[ info-card-header ]">
+                                        <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
+                                        <h1> Keerthi </h1>
+                                        <h3> Dallas </h3>
+                                        </a>
+                                    </div>
+                                    <div class="[ info-card-detail ]">
+                                        <!-- Description -->
+                                        <p>The idea of creating something out of nothing has always generated a passion in my heart.</p>
+                                        <div class="social">
+                                            <a href="https://www.facebook.com/rem.mcintosh" class="[ social-icon facebook ] animate"><span class="fa fa-facebook"></span></a>
+
+                                            <a href="https://twitter.com/Mouse0270" class="[ social-icon twitter ] animate"><span class="fa fa-twitter"></span></a>
+
+                                            <a href="https://github.com/mouse0270" class="[ social-icon github ] animate"><span class="fa fa-github-alt"></span></a>
+
+                                            <a href="https://plus.google.com/u/0/115077481218689845626/posts" class="[ social-icon google-plus ] animate"><span class="fa fa-google-plus"></span></a>
+
+                                            <a href="www.linkedin.com/in/remcintosh/" class="[ social-icon linkedin ] animate"><span class="fa fa-linkedin"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li><!--/.portfolio-item-->
+                    <li class="portfolio-item joomla bootstrap isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(550px, 0px, 0px);">
+                        <div class="item-inner">
+                            <div class="[ info-card ]">
+                                <img style="width: 100%" src="images/portfolio/thumb/item2.jpg">
+                                <div class="[ info-card-details ] animate">
+                                    <div class="[ info-card-header ]">
+                                        <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
+                                        <h1> Dummy </h1>
+                                        <h3> California </h3>
+                                        </a>
+                                    </div>
+                                    <div class="[ info-card-detail ]">
+                                        <!-- Description -->
+                                        <p>The idea of creating something out of nothing has always generated a passion in my heart.</p>
+                                        <div class="social">
+                                            <a href="https://www.facebook.com/rem.mcintosh" class="[ social-icon facebook ] animate"><span class="fa fa-facebook"></span></a>
+
+                                            <a href="https://twitter.com/Mouse0270" class="[ social-icon twitter ] animate"><span class="fa fa-twitter"></span></a>
+
+                                            <a href="https://github.com/mouse0270" class="[ social-icon github ] animate"><span class="fa fa-github-alt"></span></a>
+
+                                            <a href="https://plus.google.com/u/0/115077481218689845626/posts" class="[ social-icon google-plus ] animate"><span class="fa fa-google-plus"></span></a>
+
+                                            <a href="www.linkedin.com/in/remcintosh/" class="[ social-icon linkedin ] animate"><span class="fa fa-linkedin"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li><!--/.portfolio-item-->
+                </ul>   
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section>
+  
+          <!--<div class="container" style="margin-top:100px">
+            <div class="row">
+          </div>
+          <div class="delimiter">&nbsp;</div>
+          <div class="container">
+            <div class="row features">
+              <div class="col-sm-3 col-xs-3 ">
+                <a href="/dallas/"><img src="http://whateverblog.dallasnews.com/files/2012/11/TRAVEL_UST-DALLAS_1_AU_25272835.jpg" ></a>
+                <div class="info">
+                            <div class="name">Dallas</div>
+                            <span>Olive bread made with italian ciabatta bread dough and  aleppo olives.</span>
+                        </div>
+              </div>
+              <div class="col-sm-3 col-xs-3 col-sm-offset-1">
+                <a href="/sfo/"><img src="http://s3-us-west-2.amazonaws.com/assets-moishehouse-com/assets/programs/164881/original/San-Francisco.jpg?1410790996" ></a>
+                <div class="info">
+                            <div class="name">California</div>
+                            <span>Olive bread made with italian ciabatta bread dough and  aleppo olives.</span>
+                        </div>
+              </div>
+              <div class="col-sm-3 col-xs-3  col-sm-offset-1">
+                <a href="hyd.html"><img src="http://economictimes.indiatimes.com/thumb/msid-21933690,width-640,resizemode-4/gardens-in-agras-taj-mahal-still-feel-british-in-nature.jpg" ></a>
+                <div class="info">
+                            <div class="name">India</div>
+                            <span>Our branch in India.</span>
+                        </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      
+     <!-- <div class="text-block col-sm-10 col-sm-offset-1" id="what">
                 <h1 id="food" style="margin-top:150px">Order Organic Chicken Biryani</h1>
 
 
                 <h4 id="location">We are serving at ARDENWOOD,CALIFORNIA.(Near Fremont,Unioncity)</h4>
 
                 <h4 id="loc">Enter your e-mail and we will get in touch with you for the order.</h4>
+            </div>-->
+     <!-- <section class="howitworks pageNav">
+<section class="container">
+<div class="row clearfix">
+  <div class="col-xs-7 col-md-12">
+
+    <p class="block-title">WE COOK WITH PASSION</p>
+<div class="clearfix works-list">
+  <p>At HomeThali we emphasize on <b>ORGANIC</b> ingredients and healthy cooking.At this point we are offering organic chicken biryani to begin our campaign.We will make the whole cooking process as transparent as possible.We believe that one should know what exactly goes onto his/her plate</p>
+</div>
+
+  </div>
+
+</div>
+</section>
+</section>-->
+      <!--<section class="custom-crumbs-block custom-block" id="portfolio">
+    <div class="container">
+        <div class="text-block col-sm-10 col-sm-offset-1">
+          <div class="box">
+                <h1 style="background:rgb(51, 113, 12) ;color:#EBEDF0">We cook with passion</h1>
+                <p>Bread is the oldest and most basic food and we try to preserve bread baking methods. Therefore, we do not use any types of chemicals or additives to artificially improve the appearance. Furthermore, to improve the quality we avoid using yeast in our breads and instead use natural leavening agents, which enhance both the taste and the quality of the product. At our café-shops you can find more than 10 different types of bread such as baguettes, olive breads, 100% sourdough rye breads, whole wheat breads and more.</p>
             </div>
-      
+        </div>
+    </div>
+    <!--/.container-->
+</section>
       <section class="content-11" id="ordernow" style="visibility:hidden">
                 <div class="container">
           <div class="row">
@@ -295,5 +504,10 @@ pre-order items
     <script src="/static/xeon/js/jquery.isotope.min.js"></script>
     <script src="/static/xeon/js/jquery.prettyPhoto.js"></script>
     <script src="/static/xeon/js/main.js"></script>
+    <script src="/static/xeon/js/chef-profile.js"></script>
+    <script src="/static/xeon/js/html5shiv.js"></script>
+    <script src="/static/xeon/js/respond.min.js"></script>
+
+
   </body>
   </html>
