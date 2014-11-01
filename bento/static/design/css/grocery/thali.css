@@ -170,9 +170,37 @@ line-height: 54px;
 margin: 0 0 73px 0;
 letter-spacing: -0.05em;
 }
+#cities-served-list{
+  list-style: none;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+#cities-served-list li{
+  display: inline-block;
+  padding: 0 25px;
+  color:#450305;
+}
+#cities-served-list li a{
+ color:#A53B3B;
+ padding-top: 10px;
+}
+.content-section-header{
+  padding-top: 100px;
+font-family: Raleway, Helvetica, sans-serif;
+font-weight: 100;
+text-align: center;
+}
 
 #pageNav{
   margin-top: 600px;
+}
+
+#box{
+  margin: -60px 100px;
+  position: relative;
 }
 @media
 only screen and (max-width: 760px),

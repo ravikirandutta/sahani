@@ -8,13 +8,15 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <link rel="stylesheet" href="/static/design/css/header/design.css">
     <link rel="stylesheet" href="/static/design/css/header/modo.css">
-        <link rel="stylesheet" href="/static/design/css/grocery/thali.css">
-
+    <link rel="stylesheet" href="/static/design/css/grocery/thali.css">
     <link rel="stylesheet" href="/static/design/css/flat-ui/css/demo.css">
     <link rel="stylesheet" href="/static/design/css/flat-ui/css/flat-ui.css">
+    <link rel="stylesheet" href="/static/design/css/grocery/style.css">
     <link rel="stylesheet" href="/static/xeon/css/main.css">
     <link rel="stylesheet" href="/static/xeon/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/xeon/css/prettyPhoto.css">
+    <link rel="stylesheet" href="/static/xeon/css/chef-profile.css">
+
     <link rel="stylesheet" href="/static/design/css/index.css">
     <link rel="stylesheet" href="/static/design/css/flat-ui/css/docs.css">
     <link rel="stylesheet" href="/static/design/css/common-files/animations.css">
@@ -77,16 +79,16 @@
                             </div>
                             <div class="collapse navbar-collapse pull-right">
                 <ul id="nav-menu" class="nav pull-left">
-                  <li><a href="#what">Who we are</a>
+                  <li><a href="#">Who we are</a>
                   </li>
-                  <li><a href="#ingredients">Ingredients</a>
+                  <!--<li><a href="#ingredients">Ingredients</a>
+                  </li>-->
+                  <li><a href="#order">Wanna Order</a>
                   </li>
-                  <li><a href="/items/">Wanna Order</a>
-                  </li>
-                  <li><b><a href="#" data-toggle="modal" data-target="#bugModal" style="color:darkgreen;margin-top:40px"> Like our food?</a></b>
+                  <li><b><a href="#" data-toggle="modal"style="color:darkgreen;margin-top:40px"> Like our food?</a></b>
                             </li>
-                  <li><a href="/dallas/">Dallas</a>
-                  </li>
+                  <!--<a class="btn btn-inverse" style="margin:20px;padding:10px 10px">LOGIN</a>
+                  <a class="btn btn-danger" style="padding:10px 10px">SIGN UP</a>-->
                 </ul>
               </div>
                         </div>
@@ -117,62 +119,7 @@
         <a class="prev" href="#main-slider" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
         <a class="next" href="#main-slider" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </section>
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              <div class="hero-unit">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-     
-      <section class="howitworks pageNav">
-<section class="container">
-<div class="row clearfix">
-  <div class="col-xs-7 col-md-12">
-
-    <p class="block-title">WE COOK WITH PASSION</p>
-<div class="clearfix works-list">
-  <p>At HomeThali we emphasize on <b>ORGANIC</b> ingredients and healthy cooking.At this point we are offering organic chicken biryani to begin our campaign.We will make the whole cooking process as transparent as possible.We believe that one should know what exactly goes onto his/her plate</p>
-</div>
-
-  </div>
-
-</div>
-</section>
-</section>
-<div>
-          <div class="container" style="margin-top:100px">
-            <div class="row">
-          </div>
-          <div class="delimiter">&nbsp;</div>
-          <div class="container">
-            <div class="row features">
-              <div class="col-sm-3 col-xs-3 ">
-                <a href="/dallas/"><img src="http://whateverblog.dallasnews.com/files/2012/11/TRAVEL_UST-DALLAS_1_AU_25272835.jpg" ></a>
-                <div class="info">
-                            <div class="name">Dallas</div>
-                            <span>Olive bread made with italian ciabatta bread dough and  aleppo olives.</span>
-                        </div>
-              </div>
-              <div class="col-sm-3 col-xs-3 col-sm-offset-1">
-                <a href="/sfo/"><img src="http://s3-us-west-2.amazonaws.com/assets-moishehouse-com/assets/programs/164881/original/San-Francisco.jpg?1410790996" ></a>
-                <div class="info">
-                            <div class="name">California</div>
-                            <span>Olive bread made with italian ciabatta bread dough and  aleppo olives.</span>
-                        </div>
-              </div>
-              <div class="col-sm-3 col-xs-3  col-sm-offset-1">
-                <a href="hyd.html"><img src="http://economictimes.indiatimes.com/thumb/msid-21933690,width-640,resizemode-4/gardens-in-agras-taj-mahal-still-feel-british-in-nature.jpg" ></a>
-                <div class="info">
-                            <div class="name">India</div>
-                            <span>Our branch in India.</span>
-                        </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <section class="howitworks pageNav" style="margin-top:50px">
+    <section class="howitworks pageNav" id="box">
 <section class="container">
 <div class="row clearfix">
 <p class="block-title col-xs-8 col-sm-4 col-md-12">AS PER YOUR TASTE</p>
@@ -201,15 +148,91 @@ pre-order items
 </div>
 </section>
 </section>
-      <div class="text-block col-sm-10 col-sm-offset-1" id="what">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <div class="hero-unit">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <div class="content-section-headings">
+        <h2 class="content-section-header">
+          Serving Areas
+        </h2>
+        <ul id="cities-served-list">
+          <li><a href="/dallas">Dallas</a></li>
+          <li><a href="/menlo_park">Atlanta</a></li>
+          <li><a href="/mountain_view">California</a></li>
+          <li><a href="/atherton">Frisco</a></li>
+        </ul>
+      </div>
+
+          <!--<div class="container" style="margin-top:100px">
+            <div class="row">
+          </div>
+          <div class="delimiter">&nbsp;</div>
+          <div class="container">
+            <div class="row features">
+              <div class="col-sm-3 col-xs-3 ">
+                <a href="/dallas/"><img src="http://whateverblog.dallasnews.com/files/2012/11/TRAVEL_UST-DALLAS_1_AU_25272835.jpg" ></a>
+                <div class="info">
+                            <div class="name">Dallas</div>
+                            <span>Olive bread made with italian ciabatta bread dough and  aleppo olives.</span>
+                        </div>
+              </div>
+              <div class="col-sm-3 col-xs-3 col-sm-offset-1">
+                <a href="/sfo/"><img src="http://s3-us-west-2.amazonaws.com/assets-moishehouse-com/assets/programs/164881/original/San-Francisco.jpg?1410790996" ></a>
+                <div class="info">
+                            <div class="name">California</div>
+                            <span>Olive bread made with italian ciabatta bread dough and  aleppo olives.</span>
+                        </div>
+              </div>
+              <div class="col-sm-3 col-xs-3  col-sm-offset-1">
+                <a href="hyd.html"><img src="http://economictimes.indiatimes.com/thumb/msid-21933690,width-640,resizemode-4/gardens-in-agras-taj-mahal-still-feel-british-in-nature.jpg" ></a>
+                <div class="info">
+                            <div class="name">India</div>
+                            <span>Our branch in India.</span>
+                        </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      
+     <!-- <div class="text-block col-sm-10 col-sm-offset-1" id="what">
                 <h1 id="food" style="margin-top:150px">Order Organic Chicken Biryani</h1>
 
 
                 <h4 id="location">We are serving at ARDENWOOD,CALIFORNIA.(Near Fremont,Unioncity)</h4>
 
                 <h4 id="loc">Enter your e-mail and we will get in touch with you for the order.</h4>
+            </div>-->
+     <!-- <section class="howitworks pageNav">
+<section class="container">
+<div class="row clearfix">
+  <div class="col-xs-7 col-md-12">
+
+    <p class="block-title">WE COOK WITH PASSION</p>
+<div class="clearfix works-list">
+  <p>At HomeThali we emphasize on <b>ORGANIC</b> ingredients and healthy cooking.At this point we are offering organic chicken biryani to begin our campaign.We will make the whole cooking process as transparent as possible.We believe that one should know what exactly goes onto his/her plate</p>
+</div>
+
+  </div>
+
+</div>
+</section>
+</section>-->
+      <!--<section class="custom-crumbs-block custom-block" id="portfolio">
+    <div class="container">
+        <div class="text-block col-sm-10 col-sm-offset-1">
+          <div class="box">
+                <h1 style="background:rgb(51, 113, 12) ;color:#EBEDF0">We cook with passion</h1>
+                <p>Bread is the oldest and most basic food and we try to preserve bread baking methods. Therefore, we do not use any types of chemicals or additives to artificially improve the appearance. Furthermore, to improve the quality we avoid using yeast in our breads and instead use natural leavening agents, which enhance both the taste and the quality of the product. At our café-shops you can find more than 10 different types of bread such as baguettes, olive breads, 100% sourdough rye breads, whole wheat breads and more.</p>
             </div>
-      
+        </div>
+    </div>
+    <!--/.container-->
+</section>
       <section class="content-11" id="ordernow" style="visibility:hidden">
                 <div class="container">
           <div class="row">
@@ -226,12 +249,12 @@ pre-order items
             </form>
           </div>
         </div>
-            </section>-->
+            </section>
         <section class="content-11" id="ordernow">
                 <div class="container">
           <div class="row">
             <form method="post" action="http://takeawayhub.herokuapp.com/email_thali/">
-              <div class="col-sm-8">
+              <div class="col-sm-8" id="order">
                 <input name="email" type="text" placeholder="Enter your e-mail" spellcheck="false" style="font-size:36px;">
               </div>
               <div class="col-sm-4">
@@ -244,15 +267,16 @@ pre-order items
           </div>
         </div>
             </section>
+
       <footer class="footer-3" style="background:#F8A310">
         <div class="container">
           <div class="row v-center">
             <div class="col-sm-2">
               <b><span style="color:rgb(170, 35, 57);font-size:35px;font-family:serif">Home<span style="color:rgb(13, 83, 3)">Thali</span></span></b>
               <div class="links" style="margin-top:100px;width:350px">
-                <a id="phone"><span class="fui-phone"></span> +1 (908) 312-0024 </a>
+                <a id="phone"><span class="glyphicon glyphicon-phone"></span> +1 (908) 312-0024 </a>
                 <br>
-                <a id="mail"><span class="fui-mail"></span> homethali@gmail.com</a>
+                <a id="mail"><span class="fui-mail"></span> homefoodthali@gmail.com</a>
               </div>
             </div>
             <div class="col-sm-7">
@@ -278,7 +302,6 @@ pre-order items
           </div>
         </div>
       </footer>
-
      
     <script src="/static/design/js/common-files/jquery-1.10.2.min.js">
     </script>
@@ -295,5 +318,10 @@ pre-order items
     <script src="/static/xeon/js/jquery.isotope.min.js"></script>
     <script src="/static/xeon/js/jquery.prettyPhoto.js"></script>
     <script src="/static/xeon/js/main.js"></script>
+    <script src="/static/xeon/js/chef-profile.js"></script>
+    <script src="/static/xeon/js/html5shiv.js"></script>
+    <script src="/static/xeon/js/respond.min.js"></script>
+
+
   </body>
   </html>
