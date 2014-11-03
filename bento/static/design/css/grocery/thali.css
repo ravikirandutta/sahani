@@ -149,6 +149,10 @@ font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 text-align: center;
 }
 
+#philosophy{
+  margin: 100px;
+  padding-bottom: 0px;
+}
 .info{
   font-size: 16px;
 line-height: 27px;
@@ -202,6 +206,11 @@ text-align: center;
   margin: -60px 100px;
   position: relative;
 }
+
+.info-btn{
+  display:inline-block;
+}
+
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px){
@@ -248,5 +257,32 @@ text-align: center;
 
 #pageNav{
   margin-top: 130px;
+}
+.info{
+  width:30%;
+}
+#introduction{
+  width:45%;
+}
+#img{
+  margin-right: 500px;
+}
+#philosophy{
+  margin: 10px;
+  width:100%;
+}
+p.block-title{
+  width:40%;
+}
+#desc{
+  text-align: center;
+  width:40%;
+}
+#box{
+  margin: 10px;
+  width:100%;
+}
+#head{
+  width:40%;
 }
 }

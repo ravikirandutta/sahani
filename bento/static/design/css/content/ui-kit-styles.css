@@ -1072,8 +1072,8 @@ body .colapsed-menu::-webkit-scrollbar {
  * Content 3 stylesheet  
  * */
 .content-3 {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 .content-3 h3 {
@@ -1089,9 +1089,8 @@ body .colapsed-menu::-webkit-scrollbar {
 line-height: 46px;
 padding-bottom: 25px;
 margin-bottom: 0;
-text-shadow: 0.5px 0.5px #BD8E04;
 font-family: 'Open Sans', sans-serif;
-color: #999;
+color: #000;
 }
 @media (max-width: 767px) {
   .content-3 p {
