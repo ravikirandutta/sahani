@@ -262,7 +262,7 @@ text-align: center;
   width:30%;
 }
 #introduction{
-  width:45%;
+  width:35%;
 }
 #img{
   margin-right: 500px;
@@ -272,17 +272,17 @@ text-align: center;
   width:100%;
 }
 p.block-title{
-  width:40%;
+  width:30%;
 }
 #desc{
   text-align: center;
-  width:40%;
+  width:30%;
 }
 #box{
   margin: 10px;
   width:100%;
 }
 #head{
-  width:40%;
+  width:30%;
 }
 }
