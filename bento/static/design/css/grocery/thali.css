@@ -93,7 +93,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .block-title{
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: #3d3428;
 font-size: 26px;
 line-height: 47px;
@@ -127,7 +127,7 @@ line-height: 46px;
 padding-bottom: 25px;
 margin-bottom: 0;
 text-shadow: 0.5px 0.5px #BD8E04;
-font-family: 'Open Sans', sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 color:#fff;
 }
 #phone{
@@ -145,7 +145,7 @@ color:#fff;
 line-height: 32px;
 color: #1b1f23;
 min-height: 40px;
-font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 text-align: center;
 }
 
@@ -166,7 +166,7 @@ color: #676767;
 }
 
 h1{
-  font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: #1b1f23;
 text-align: center;
 font-size: 30px;
@@ -193,7 +193,7 @@ letter-spacing: -0.05em;
 }
 .content-section-header{
   padding-top: 100px;
-font-family: Raleway, Helvetica, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight: 100;
 text-align: center;
 }
@@ -218,13 +218,13 @@ only screen and (max-width: 760px),
   #food{
   font-size:20px;
   color:#000;
-  font-family:proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   width:30%;
 }
 #thali{
   font-size: 10px;
 color: black;
-font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 margin-top: 80px;
 width:30%;
 }
@@ -244,7 +244,7 @@ width:30%;
 #location{
   font-size: 10px;
 color: black;
-font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 width:30%;
 text-align: center;
 }
@@ -268,18 +268,18 @@ text-align: center;
   margin-right: 500px;
 }
 #philosophy{
-  margin: 10px;
+  margin: 0px;
   width:100%;
 }
 p.block-title{
   width:30%;
 }
 #desc{
-  text-align: center;
+  text-align: -webkit-center;
   width:30%;
 }
 #box{
-  margin: 10px;
+  margin: 0px;
   width:100%;
 }
 #head{
