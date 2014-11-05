@@ -10,11 +10,11 @@ section#box{
 }
 
 #philosophy{
-  margin: 0px;
+  margin: 50px;
   width:100%;
 }
 p.block-title{
-  width:65%;
+  width:95%;
 }
 #desc{
   text-align: -webkit-center;
