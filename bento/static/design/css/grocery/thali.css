@@ -211,3 +211,26 @@ text-align: center;
   display:inline-block;
 }
 
+.photo:hover img{
+    opacity:0.7;
+}
+
+.photo:hover input {
+    display: block;
+}
+.photo input {
+    position:absolute;
+    display:none;
+}
+.photo input.update {
+    top:30%;
+    left:65%;
+    border-radius: 50%;
+    background: #03700F;
+    color:#fff;
+    height: 40px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 6px 18px;
+}

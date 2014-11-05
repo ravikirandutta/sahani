@@ -71,3 +71,16 @@ p.block-title{
 #ourwork{
   width:40%;
 }
+
+.photo input.update {
+    top:30%;
+    left:20%;
+    border-radius: 50%;
+    background: #03700F;
+    color:#fff;
+    height: 40px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 6px 18px;
+}
