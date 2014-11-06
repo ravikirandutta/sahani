@@ -277,6 +277,19 @@ pre-order items
     </div>
     <!--/.container-->
 </section>
+
+<div>
+  <form method="POST" action="/accounts/register/">
+    {%csrf_token%}
+
+    <input name="username"></input>
+    <input name="email"></input>
+    <input name="password1"></input>
+    <input name="password2"></input>
+    <input type="submit"/>
+
+  </form>
+  </div>
       <section class="content-11" id="ordernow" style="visibility:hidden">
                 <div class="container">
           <div class="row">
