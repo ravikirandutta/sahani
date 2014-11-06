@@ -37,14 +37,14 @@ def send_email_thali(request):
     recipients.append(to_email)
     subject = 'HOMETHALI CUSTOMER ORDER'
 
-    if from_email :   
-    	subject = subject + ' IS GOOD'    	
-    	
+    if from_email :
+    	subject = subject + ' IS GOOD'
+
     else :
     	result = 'SUCCESS'
     	subject = subject + ' HAS GONE BAD. NO FROM_EMAIL FOUND.'
 
-    	
+
     body = 'You have got an order from ' + str(from_email) + '\n' + str(order_info)  + '\n' + 'CHEF INFO :' + '\n' + str(chef_info)
     #send_mail(subject, email , 'support@mbatakeaways.com', recipients)
 
@@ -81,3 +81,29 @@ def list(request):
         {'documents': documents, 'form': form},
         context_instance=RequestContext(request)
     )
+
+
+
+def handle_login(request):
+
+    user = authenticate(username=request.POST.get('username'), password=request.POST.get('password'))
+    if user is not None:
+        # the password verified for the user
+        if user.is_active:
+            message = "User is valid, active and authenticated"
+            login(request,user)
+            request.session['userid'] = user.id
+            response  = render_to_response("homefood.html",{})
+            return response
+        else:
+            message =  "The password is valid, but the account has been disabled!"
+            return render_to_response("registration/registration_complete.html",{})
+    else:
+        # the authentication system was unable to verify the username and password
+        message =  "The username/password is incorrect."
+        #message=""
+        return render_to_response("login.html",{ 'error_message': message },RequestContext(request))
+
+
+
+

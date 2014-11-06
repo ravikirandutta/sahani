@@ -1,0 +1,86 @@
+ #food{
+  font-size:20px;
+  color:#000;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  width:30%;
+}
+#thali{
+  font-size: 10px;
+color: black;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin-top: 80px;
+width:30%;
+}
+
+#ingredients{
+  width:63%;
+}
+
+#thalibackground{
+  opacity:0.4;
+  height:900px;
+  background: url('http://offthegridsf.com/wp-content/uploads/2011/08/curries.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#location{
+  font-size: 10px;
+color: black;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+width:30%;
+text-align: center;
+}
+
+#id_thali{
+  padding:15px 10px;
+  font-size:20px;
+  margin-right: 10px;
+}
+
+#pageNav{
+  margin-top: 130px;
+}
+.info{
+  width:30%;
+}
+#introduction{
+  width:35%;
+}
+#img{
+  margin-right: 500px;
+}
+#philosophy{
+  margin: 0px;
+  width:100%;
+}
+p.block-title{
+  width:30%;
+}
+#desc{
+  text-align: -webkit-center;
+  width:30%;
+}
+#box{
+  margin: 0px;
+  width:100%;
+}
+#head{
+  width:30%;
+}
+#ourwork{
+  width:40%;
+}
+
+.photo input.update {
+    top:30%;
+    left:20%;
+    border-radius: 50%;
+    background: #03700F;
+    color:#fff;
+    height: 40px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 6px 18px;
+}

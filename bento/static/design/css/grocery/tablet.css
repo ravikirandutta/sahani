@@ -1,0 +1,38 @@
+.howitworks .row .img-circle{
+  background-color: #f09d04;
+}
+#head{
+  width:700px;
+}
+section#box{
+  width:100%;
+  margin: 0;
+}
+
+#philosophy{
+  margin: 50px;
+  width:100%;
+}
+p.block-title{
+  width:70%;
+}
+#desc{
+  text-align: -webkit-center;
+  width:85%;
+}
+.info{
+  width:75%;
+}
+#introduction{
+  width:40%;
+}
+#box{
+  margin: 30px;
+  position: relative;
+}
+#ourwork{
+  width:160%;
+}
+.order button:before{
+  left:-15px;
+}
