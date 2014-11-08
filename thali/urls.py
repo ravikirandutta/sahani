@@ -16,7 +16,7 @@ urlpatterns = patterns('',
     url(r'^dallas/',TemplateView.as_view(template_name="dallas.html")),
     url(r'^biryani/',TemplateView.as_view(template_name="biryani.html")),
     url(r'^home/',TemplateView.as_view(template_name="homefood.html")),
-    url(r'^login/',TemplateView.as_view(template_name="login.html")),
+    url(r'^register/',TemplateView.as_view(template_name="register.html")),
     url(r'^handlelogin/','bento.views.handle_login', name="handlelogin"),
     url(r'^email_thali/','bento.views.send_email_thali',),   # to send emails from specific chef pages.
     url(r'^list/$', 'bento.views.list', name='list'),
